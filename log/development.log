@@ -1,0 +1,110 @@
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+
+
+Started GET "/feeds" for 127.0.0.1 at 2013-07-04 01:45:35 -0700
+Processing by FeedsController#index as HTML
+  [1m[36mFeed Load (0.3ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."feed_id" = 10
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."feed_id" = 11[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."feed_id" = 12
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."feed_id" = 13[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."feed_id" = 14
+  Rendered feeds/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/feeds.css?body=1" for 127.0.0.1 at 2013-07-04 01:45:35 -0700
+Served asset /feeds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-04 01:45:35 -0700
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/feeds.js?body=1" for 127.0.0.1 at 2013-07-04 01:45:35 -0700
+Served asset /feeds.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-04 01:45:35 -0700
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-04 01:45:35 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-04 01:45:35 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-07-04 01:45:35 -0700
+Served asset /scaffolds.css - 200 OK (0ms)
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.2ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.4ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.2ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.7ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.1ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.4ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.6ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (1.0ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
+Connecting to database specified by database.yml
+  [1m[36mFeed Load (0.9ms)[0m  [1mSELECT "feeds".* FROM "feeds" [0m
